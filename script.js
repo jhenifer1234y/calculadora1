@@ -1,11 +1,19 @@
-calcule.addEventListener('click',function(){
+calcule.addEventListener("click", function () {
+  var a = valorA.value;
+  var b = valorB.value;
+  var op = operacao.value;
 
-var a = valorA.value;
-var B = valorB.value;
+  a = parseInt(a);
+  b = parseInt(b);
+  op = parseInt(op);
 
-a = parseInt(a)
-B = parseInt(B)
-
-alert(a+B);
-
+  if (op == 1) {
+    alert(a + b);
+  } else if (op == 2) {
+    alert(a - b);
+  } else if (op == 3) {
+    alert(a * b);
+  } else if (op == 4) {
+    alert(a / b);
+  }
 });
