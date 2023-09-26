@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+}
+
+header {
+  background-color: palevioletred;
+  padding: 2%;
+}
+h1 {
+  margin: 0;
+  text-align: center;
+}
+
+.entradas {
+  background-color: palevioletred;
+  margin: 2%;
+  height: 340px;
+  width: 60%;
+  text-align: center;
+  border-radius: 10px;
+}
+
+label {
+  line-height: 1.4;
+}
+
+input {
+  margin-bottom: 12px;
+  padding: 10px;
+  border-radius: 10px;
+}
+select {
+  margin-bottom: 12px;
+  width: 200px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+button {
+  margin-top: 12px;
+  width: 200px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.principal {
+  display: grid;
+  place-items: center;
+}
+
+.saida {
+  background-color: palevioletred;
+  margin: 2%;
+  height: 140px;
+  width: 20%;
+  text-align: center;
+  border-radius: 10px;
+}
