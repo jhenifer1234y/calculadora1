@@ -2,60 +2,26 @@
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <title>Sorveteria</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Calculadora</title>
   </head>
   <body>
-    <header>
-      <h1>Sorveteria do Tancredo</h1>
-    </header>
+    <label>Valor A</label>
+    <input id="valorA" type="number" />
+    <select id="operacao">
+      <option>Selecione</option>
+      <option value="1">➕</option>
+      <option value="2">➖</option>
+      <option value="3">✖️</option>
+      <option value="4">➗</option>
+    </select>
 
-    <div class="principal">
-    <div class="entradas">
-    </br>
-      <label>
-        Como você gostaria de ser chamado?
-      </br>
-        <input id="nome" placeholder="Nome" type="text" />
-      </label>
-    </br>
-      <label>
-        Produtos que você gostaria?
-      </br>
-        <input id="quantidade" placeholder="Minimo 1" type="number" min="1" />
-    </br>
-      </label>
+    <label>Valor B:</label>
+    <input id="valorB" type="number" />
 
-      <label class="label" for="Sabor de Sorvete">Escolha um sabor:</label>
-  </br>
-      <select id="sabores">
-        <option value=" ">Selecione</option>
-        <option value="chocolate">Chocolate</option>
-        <option value="Baunilha">Baunilha</option>
-        <option value="Flocos">Flocos</option>
-        <option value="morango">Morango</option>
-        <option value="Napolitano">Napolitano</option>
-        <option value="Milho">Milho</option>
-        <option value="Maracujá">Maracujá</option>
-        <option value="Uva">Uva</option>
-        <option value="Limão">Limão</option>
-        <option value="Trufado">Truado</option>
-      </select>
-    </br>
-      <button id="botao">Fazer Pedido</button>
-    </div>
-  </div>
+    <button id="calcule">Calcular</button>
 
-    <hr>
-<div class="principal">
-<div class="saida">
-    <p id="pedidoNome"></p>
-    <p id="pedidoQuantia"></p>
-    <p id="pedidoSabor"></p>
-</div>
-</div>
     <script src="script.js"></script>
   </body>
 </html>
